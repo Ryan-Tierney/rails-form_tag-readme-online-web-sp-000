@@ -5,6 +5,7 @@ describe 'new post' do
     visit new_post_path
     expect(page.status_code).to eq(200)
   end
+end 
 
   describe 'new post' do
  
@@ -14,3 +15,4 @@ describe 'new post' do
     visit new_post_path
     expect(page).to have_content('Post Form')
   end
+end 
