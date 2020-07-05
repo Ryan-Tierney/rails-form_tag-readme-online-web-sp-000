@@ -6,6 +6,7 @@ describe 'new post' do
     expect(page.status_code).to eq(200)
   end
 end 
+
   describe 'new post' do
  
   ...
